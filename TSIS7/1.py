@@ -5,9 +5,9 @@ pygame.init()
 
 clock = pygame.time.Clock()
 
-mick = pygame.transform.scale(pygame.image.load("123/mickeyclock.png"), (800, 600))
-min = pygame.transform.scale(pygame.image.load("123/min.png"), (800, 600))
-sec = pygame.transform.scale(pygame.image.load("123/sec.png"), (50, 600))
+mick = pygame.transform.scale(pygame.image.load("mainclock.png"), (800, 600))
+min = pygame.transform.scale(pygame.image.load("rightarm.png"), (800, 600))
+sec = pygame.transform.scale(pygame.image.load("leftarm.png"), (50, 600))
 
 
 def rot_center(surf, image, angle, x, y):

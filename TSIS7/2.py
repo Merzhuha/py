@@ -5,9 +5,8 @@ size = width, hight = (400, 200)
 screen = pygame.display.set_mode(size)
 pygame.display.set_caption('Bad - Media - Player')
 music_list = [
-    'Franz Schubert - Ave Maria, D. 839.mp3',
-    'Franz Schubert - Die forelle.mp3',
-    'Franz Schubert - Fischerweise, D.881.mp3'
+    'Muslim_Magomaev_-_Sinyaya_vechnost_49983002.mp3',
+    'Макс Корж - Слово Пацана.mp3'
 ]
 
 SONG_END = pygame.USEREVENT + 1

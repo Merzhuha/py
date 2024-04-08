@@ -2,4 +2,4 @@ import datetime
 
 x = datetime.datetime.now()
 
-print(x.strftime("%f"))
+print(x.strftime("%w"))
